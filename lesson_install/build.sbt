@@ -1,0 +1,11 @@
+name := "lesson_install"
+
+version := "1.0-SNAPSHOT"
+
+libraryDependencies ++= Seq(
+  javaJdbc,
+  javaEbean,
+  cache
+)     
+
+play.Project.playJavaSettings
